@@ -9,6 +9,7 @@ const Dashboard = (props: Props) => {
 
     const session =useSession()
 
+//  console.log(session);
  
     
       return (
