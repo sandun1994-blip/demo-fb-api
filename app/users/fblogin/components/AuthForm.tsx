@@ -21,7 +21,7 @@ const AuthForm = (props: Props) => {
 
   useEffect(() => {
     if (session?.data?.accessToken) {
-      router.push("/users/dashboard");
+      router.push("/users/dashboard/postpool");
     }
   }, [router, session?.data?.accessToken]);
 
